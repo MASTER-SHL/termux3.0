@@ -56,7 +56,7 @@ neofetch | pv -qL 500
 sleep 4
 clear
 toilet -f smblock --filter border:gay 'S     H     A     H     U     L'
-PROMPT=$'%F{%(#.red.green)}🚫~|SHAHUL|/n└─%B%(#.%F{red}#.%F{red}♤)%b%F{reset} '
+PROMPT=$'%F{%(#.red.green)}🚫~|SHAHUL|-[%B%F{reset}%b%F{%(#.ref.green)}★￫️⃝⃕S]\n└─%B%(#.%F{red}#.%F{red}♤)%b%F{reset} '
     RPROMPT=$'%(?.. %? %F{red}%B⨯%b%F{reset})%(1j. %j %F{yellow}%B⚙%b%F{reset}.)'  " >> .zshrc
 sleep 2
 rm -rf termux3.0
