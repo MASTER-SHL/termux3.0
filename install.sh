@@ -40,15 +40,6 @@ rm -rf  .bashrc
 rm -rf  .zshrc
 rm -rf  /data/data/com.termux/files/usr/etc/motd
 echo "   " >> /data/data/com.termux/files/usr/etc/motd
-## echoing .bashrc file
-
-echo "  zsh
-                figlet see you | pv -qL 100
-                echo "......................................!" | pv -qL 100
-                echo "hack_with_vyshu" | pv -qL 15
-                exit
-                echo "hack_with_vyshu" | pv -qL 500  " >> .bashrc
-## echoing .zshrc file
 echo "
 sleep 3
 neofetch | pv -qL 500
