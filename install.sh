@@ -34,7 +34,6 @@ pkg install x11-repo -y
 pkg install pv -y
 pkg install neofetch  -y
 pkg install toilet -y
-pkg install zsh -y
 pkg install nano -y
 cd
 rm -rf  .bashrc
