@@ -34,12 +34,22 @@ pkg install x11-repo -y
 pkg install pv -y
 pkg install neofetch  -y
 pkg install toilet -y
+pkg install zsh -y
 pkg install nano -y
 cd
 rm -rf  .bashrc
 rm -rf  .zshrc
 rm -rf  /data/data/com.termux/files/usr/etc/motd
 echo "   " >> /data/data/com.termux/files/usr/etc/motd
+## echoing .bashrc file
+
+echo "  zsh
+                figlet see you | pv -qL 100
+                echo "......................................!" | pv -qL 100
+                echo "shahul_sha" | pv -qL 15
+                exit
+                echo "shahul_sha" | pv -qL 500 " >> .bashrc
+## enchoing .zshrc file
 echo "
 sleep 3
 neofetch | pv -qL 500
